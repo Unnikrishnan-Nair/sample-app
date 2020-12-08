@@ -9,30 +9,30 @@ package com.sample.app.model;
  */
 public class Interval {
 
-	private Integer startingVal;
+    private Integer startingVal;
 
-	private Integer endingVal;
+    private Integer endingVal;
 
-	public Interval(int startingVal, int endingVal) {
-		this.startingVal = startingVal;
-		this.endingVal = endingVal;
-	}
+    public Interval(int startingVal, int endingVal) {
+        this.startingVal = startingVal;
+        this.endingVal = endingVal;
+    }
 
-	public Integer getStartingVal() {
-		return startingVal;
-	}
+    public Integer getStartingVal() {
+        return startingVal;
+    }
 
-	public void setStartingVal(Integer startingVal) {
-		this.startingVal = startingVal;
-	}
+    public void setStartingVal(Integer startingVal) {
+        this.startingVal = startingVal;
+    }
 
-	public Integer getEndingVal() {
-		return endingVal;
-	}
+    public Integer getEndingVal() {
+        return endingVal;
+    }
 
-	public void setEndingVal(Integer endingVal) {
-		this.endingVal = endingVal;
-	}
+    public void setEndingVal(Integer endingVal) {
+        this.endingVal = endingVal;
+    }
 
     @Override
     public int hashCode() {
@@ -66,5 +66,5 @@ public class Interval {
             return false;
         return true;
     }
-	
+
 }
